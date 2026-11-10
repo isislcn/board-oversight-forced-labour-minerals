@@ -11,7 +11,7 @@ Please report privately (not in a public issue):
 ## How to report
 
 1. Use GitHub's **private vulnerability reporting** for this repository: *Security* tab → *Report a vulnerability*. *(The maintainer must enable this in repository settings.)*
-2. If that is not available, contact the maintainer through their GitHub profile ([isislcn](https://github.com/isislcn)) **without** including sensitive details, and ask for a private channel.
+2. If that is not available, open an issue titled "Security contact request" **without** any sensitive details, and the maintainers will arrange a private channel.
 
 Please include the file path, commit or URL, and a short description. **Do not copy the secret or licensed data into your report.** A pointer to where it is is enough.
 

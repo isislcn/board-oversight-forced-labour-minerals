@@ -55,7 +55,7 @@ See [DATA_NOTICE.md](DATA_NOTICE.md) for what data is and is not published.
 
 Please cite the specific version you used. Citation metadata is in [CITATION.cff](CITATION.cff). GitHub shows a "Cite this repository" button once the file is on the default branch.
 
-> Isis (isislcn) (2026). *Board Oversight of Forced Labour Risk in Mineral Supply Chains* (Version 0.1.0) [Computer software and dataset]. https://github.com/isislcn/board-oversight-forced-labour-minerals
+> Board Oversight of Forced Labour Risk project contributors (2026). *Board Oversight of Forced Labour Risk in Mineral Supply Chains* (Version 0.1.0) [Computer software and dataset]. GitHub repository.
 
 The thesis cites the thesis snapshot version (for example `v1.0.0-thesis`) only.
 
@@ -67,6 +67,6 @@ The thesis cites the thesis snapshot version (for example `v1.0.0-thesis`) only.
 
 ## Contact
 
-Open an issue in this repository, or contact the maintainer through GitHub: [@isislcn](https://github.com/isislcn).
+Please open an issue in this repository.
 
 For security issues or accidentally committed secrets or licensed data, follow [SECURITY.md](SECURITY.md).
