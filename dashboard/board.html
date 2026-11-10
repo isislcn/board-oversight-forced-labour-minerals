@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Board Oversight and Stewardship</title>
+<meta name="description" content="Research dashboard: board oversight of forced labour risk in cobalt supply chains at Apple, Microsoft and Tesla. Risk indicators, not findings.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="board">
+<a class="skip" href="#content">Skip to content</a>
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="brand" href="index.html">Board Oversight of Forced Labour Risk</a>
+    <nav aria-label="Main">
+      <a href="index.html">Summaries</a>
+      <a href="explorer.html">Supply chain explorer</a>
+      <a href="board.html" aria-current="page">Board and votes</a>
+      <a href="index.html#about">About and method</a>
+    </nav>
+  </div>
+</header>
+<div class="banner">Research in progress — data as of 9 Nov 2026. Analytic text is a draft for researcher review. Fields not yet collected are marked.</div>
+<main id="content">
+  <div style="display:flex;flex-direction:column;gap:4px">
+    <h1 class="page">Board oversight and stewardship · Apple, Microsoft, Tesla</h1>
+    <p class="small" style="font-size:14px">All three are widely held US-listed companies. Latest proxy year per company; earlier years 2022–2024 not yet coded.</p>
+  </div>
+  <section class="card" aria-labelledby="grid-h">
+    <div class="row"><h2 class="sec" id="grid-h">Board oversight grid (provisional)</h2>
+      <div class="key"><span><i style="border:1.5px dashed #8A867D"></i>0 Not disclosed</span><span><i style="background:#C9D7E8"></i>1 General / partial</span><span><i style="background:#1F3A5F"></i>2 Specific / full</span><span><i style="background:#F0EEE9"></i>Not yet coded</span></div></div>
+    <div class="layout">
+      <div class="main tbl-wrap"><table id="grid" style="min-width:620px"></table></div>
+      <aside id="evidence" class="side box" style="background:#FAFAF8" aria-live="polite"></aside>
+    </div>
+    <p class="small">Framework: WBA CHRB board-level accountability (A.2) + project indicators P1–P7. Single coder; second review deferred. Codes are provisional until the full proxy statements and committee charters are reviewed.</p>
+  </section>
+  <section class="card" aria-labelledby="comm-h">
+    <div class="row"><h2 class="sec" id="comm-h">Board committees relevant to human rights and supply chain oversight</h2><span class="small">Primary = explicit human rights / social mandate; Supporting = risk or compliance mandate that can cover it.</span></div>
+    <div id="committees" class="grid3"></div>
+  </section>
+  <section class="card" aria-labelledby="hold-h">
+    <div class="row"><h2 class="sec" id="hold-h">Big Three holdings in each company</h2><span class="small">SEC Form 13F, positions as of 30 Jun 2026 · % of shares outstanding · US$ value</span></div>
+    <div class="tbl-wrap"><table id="holdings" class="plain"></table></div>
+    <p class="small">Manager-level 13F positions (BlackRock, Inc.; State Street Corp; Vanguard = Vanguard Capital Management + Vanguard Portfolio Management + Vanguard Fiduciary Trust). Mostly index-fund holdings, but 13F does not separate index from active funds. Percentages are approximate: shares outstanding derived from 13F summaries (Apple ≈14.66B, Microsoft ≈7.41B, Tesla ≈3.24B). Sources: <a href="https://www.quantisnow.com/institutional-ownership/AAPL">Quantisnow AAPL</a>, <a href="https://www.quantisnow.com/institutional-ownership/MSFT">MSFT</a>, <a href="https://www.quantisnow.com/institutional-ownership/TSLA">TSLA</a>; <a href="https://evidinvest.com/holders/AAPL">EvidInvest</a>.</p>
+  </section>
+  <section class="card" aria-labelledby="votes-h">
+    <div class="row"><h2 class="sec" id="votes-h">Related shareholder proposals, 2022–2026</h2><span class="small">Big Three votes (Form N-PX): not yet collected.</span></div>
+    <div id="proposals" class="grid3"></div>
+  </section>
+  <section class="card" aria-labelledby="events-h">
+    <h2 class="sec" id="events-h">Litigation, legal complaints and company actions</h2>
+    <ul>
+      <li><strong>Litigation — concluded (all three):</strong> John Doe I et al. v. Apple, Alphabet, Dell, Microsoft and Tesla — forced child labour claims over DRC cobalt; filed Dec 2019, dismissed Nov 2021, dismissal affirmed by the D.C. Circuit on 5 Mar 2024. <a href="https://www.internationalrightsadvocates.org/cases/cobalt">IRAdvocates</a> · <a href="https://www.business-humanrights.org/en/latest-news/lawsuit-against-apple-google-tesla-and-others-re-child-labour-drc">BHRRC</a></li>
+      <li><strong>Criminal complaints — concluded in France, status unknown in Belgium (Apple):</strong> DRC government complaints over conflict minerals (3TG), filed Dec 2024; the Paris prosecutor closed the case in Feb 2025. <a href="https://www.petersandpeters.com/case/democratic-republic-of-congo-files-criminal-complaints-against-european-apple-subsidiaries-over-conflict-materials">Peters &amp; Peters</a> · <a href="https://ca.finance.yahoo.com/news/exclusive-congo-files-criminal-complaints-050552031.html">Reuters</a></li>
+      <li><strong>Apple — recycling:</strong> committed in Apr 2023 to 100% recycled cobalt in Apple-designed batteries by 2025; reports the target met at end-2025. <a href="https://www.apple.com/newsroom/2026/04/apple-accelerates-progress-with-highest-ever-recycled-material-in-its-products">Apple Newsroom, Apr 2026</a></li>
+      <li><strong>Apple — regional exit (3TG):</strong> told suppliers in 2024 that their smelters and refiners must stop buying tin, tantalum, tungsten and gold from the DRC and Rwanda (statement to Reuters, Dec 2024). <a href="https://ca.finance.yahoo.com/news/apple-says-told-suppliers-stop-213841799.html">Reuters</a></li>
+      <li><strong>Microsoft — engagement:</strong> requires cobalt reporting via RMI EMRT since 2019 and states it sources from conflict-affected and high-risk areas rather than avoiding them. <a href="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Microsoft-RY2024-Conflict-Minerals-Report.pdf">Microsoft Conflict Minerals Report 2025</a></li>
+      <li><strong>Tesla — sourcing agreements:</strong> cobalt supply agreement with Glencore reported in Jun 2020 (CNBC, industry sources); Huayou precursor supply Jul 2022 to end-2025 (Bloomberg, 2022). <a href="https://www.cnbc.com/2020/06/16/tesla-glencore-cobalt-gigafactory.html">CNBC</a></li>
+    </ul>
+  </section>
+  <aside class="caveat" aria-label="Data caveat">Supply chain links and risk flags are derived from Sayari Graph data (queried 2026-11-09). They are risk indicators based on trade, corporate and third-party records, not findings that any company uses forced labour. Data may be incomplete, contain entity-matching errors, or omit flows not captured in trade records.</aside>
+  <footer class="site">
+    <span>Dataset v0.1 (draft) · Cobalt pilot · Sources cited to original publishers; Tavily used for discovery only.</span>
+  </footer>
+</main>
+<script src="assets/data.js"></script>
+<script src="assets/pages.js"></script>
+</body>
+</html>

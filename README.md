@@ -8,7 +8,7 @@ This tool is part of the research method of a master's thesis: *[Thesis title �
 
 ## Status
 
-**Planning stage — no application code yet.** This repository contains planning documents and publication files only.
+**Pilot in progress.** A first static dashboard for cobalt (Apple, Microsoft, Tesla; data as of 9 Nov 2026) is in [`dashboard/`](dashboard/) and is published with GitHub Pages from the `gh-pages` branch. Analytic text is a draft; board coding is provisional; Big Three votes are not yet collected.
 
 ## Important caveat
 
@@ -28,6 +28,11 @@ See [DATA_NOTICE.md](DATA_NOTICE.md) for what data is and is not published.
 ├── SECURITY.md           # How to report a security issue or leaked secret/data
 ├── .gitignore
 ├── .env.example          # Environment variable names only (no values)
+├── dashboard/            # Static dashboard (published with GitHub Pages)
+│   ├── index.html        # Executive summaries
+│   ├── explorer.html     # Supply chain explorer
+│   ├── board.html        # Board oversight, committees, holdings, proposals
+│   └── assets/           # Styles, data and page scripts
 ├── docs/
 │   ├── README.md         # Index of planning documents
 │   ├── 01-concept.md
