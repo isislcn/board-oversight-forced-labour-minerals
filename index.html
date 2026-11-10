@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Executive Summaries — Cobalt</title>
+<meta name="description" content="Research dashboard: board oversight of forced labour risk in cobalt supply chains at Apple, Microsoft and Tesla. Risk indicators, not findings.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="summary">
+<a class="skip" href="#content">Skip to content</a>
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="brand" href="index.html">Board Oversight of Forced Labour Risk</a>
+    <nav aria-label="Main">
+      <a href="index.html" aria-current="page">Summaries</a>
+      <a href="explorer.html">Supply chain explorer</a>
+      <a href="board.html">Board and votes</a>
+      <a href="index.html#about">About and method</a>
+    </nav>
+  </div>
+</header>
+<div class="banner">Research in progress — data as of 9 Nov 2026. Analytic text is a draft for researcher review. Fields not yet collected are marked.</div>
+<main id="content">
+  <div class="row">
+    <div id="tabs" class="tabs" role="group" aria-label="Choose company"></div>
+    <span class="tag">Dataset v0.1 (draft) · cobalt</span>
+  </div>
+  <article id="summary" class="card" aria-live="polite"></article>
+  <aside class="caveat" aria-label="Data caveat">Supply chain links and risk flags are derived from Sayari Graph data (queried 2026-11-09). They are risk indicators based on trade, corporate and third-party records, not findings that any company uses forced labour. Data may be incomplete, contain entity-matching errors, or omit flows not captured in trade records.</aside>
+  <section class="card" id="about" aria-labelledby="about-h">
+    <h2 class="sec" id="about-h">About and method</h2>
+    <p>This dashboard supports research on how the boards of major technology companies oversee forced labour risks in their mineral supply chains, and how far that oversight aligns with the UN Guiding Principles on Business and Human Rights on leverage, remedy and responsible exit. The pilot covers cobalt at Apple, Microsoft and Tesla.</p>
+    <ul>
+      <li><strong>Exposure:</strong> traced upstream in Sayari from anchor suppliers each company names itself (cobalt HS codes 2605, 2822, 8105; trade records since 1 Jan 2023; depth 3). Colour and shape show the risk context; badges show evidence strength (E1 official list, E2 named in research, E3 network link, E4 product–country risk).</li>
+      <li><strong>Severity-and-leverage test:</strong> state-imposed forced labour (little buyer leverage) points toward responsible exit; privately imposed forced labour (leverage available) points toward remedy.</li>
+      <li><strong>Oversight:</strong> board coding uses the World Benchmarking Alliance CHRB board-level accountability indicators (A.2) plus seven project indicators, scored 0–2 from proxy statements. Coding is provisional and by a single coder.</li>
+      <li><strong>Stewardship:</strong> related shareholder proposals 2022–2026 and Big Three holdings from SEC Form 13F. Fund-level votes (Form N-PX) are not yet collected.</li>
+      <li><strong>Limitations:</strong> trade data miss artisanal and unrecorded flows; entity matching can be wrong; companies that disclose more can look more exposed; board deliberations are confidential.</li>
+    </ul>
+  </section>
+  <footer class="site">
+    <span>Dataset v0.1 (draft) · Cobalt pilot · Sources cited to original publishers; Tavily used for discovery only.</span>
+  </footer>
+</main>
+<script src="assets/data.js"></script>
+<script src="assets/pages.js"></script>
+</body>
+</html>

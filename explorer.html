@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Supply Chain Explorer — Cobalt</title>
+<meta name="description" content="Research dashboard: board oversight of forced labour risk in cobalt supply chains at Apple, Microsoft and Tesla. Risk indicators, not findings.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="explorer">
+<a class="skip" href="#content">Skip to content</a>
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="brand" href="index.html">Board Oversight of Forced Labour Risk</a>
+    <nav aria-label="Main">
+      <a href="index.html">Summaries</a>
+      <a href="explorer.html" aria-current="page">Supply chain explorer</a>
+      <a href="board.html">Board and votes</a>
+      <a href="index.html#about">About and method</a>
+    </nav>
+  </div>
+</header>
+<div class="banner">Research in progress — data as of 9 Nov 2026. Analytic text is a draft for researcher review. Fields not yet collected are marked.</div>
+<main id="content">
+  <div class="row" style="align-items:flex-end">
+    <div style="display:flex;flex-direction:column;gap:4px">
+      <h1 class="page">Supply chain explorer · Cobalt</h1>
+      <p class="small" style="font-size:14px">Traced upstream from anchor suppliers named by each company. Cobalt HS codes 2605, 2822, 8105; trade records since 1 Jan 2023; depth 3.</p>
+    </div>
+    <div id="tabs" class="tabs" role="group" aria-label="Choose company"></div>
+  </div>
+  <div class="layout">
+    <section id="flow" class="card main" aria-label="Tiered flow"></section>
+    <aside id="detail" class="card side" aria-label="Selected entity detail" aria-live="polite"></aside>
+  </div>
+  <section class="card legend" aria-label="Legend">
+    <div><span class="label">Risk context (colour + shape)</span>
+      <span class="ln"><svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1 L15 8 L8 15 L1 8 Z" fill="#7A0019"></path></svg>State-imposed forced labour</span>
+      <span class="ln"><svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1 L15 15 L1 15 Z" fill="#D55E00"></path></svg>Child labour (artisanal mining)</span>
+      <span class="ln"><svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="#E6A700" stroke="#1C1C1C" stroke-width="1"></circle></svg>Privately imposed forced labour</span>
+      <span class="ln"><svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="2" width="12" height="12" fill="#5D3A9B"></rect></svg>Conflict-linked sourcing</span></div>
+    <div><span class="label">Evidence (badge)</span><span><strong>E1</strong> Official list</span><span><strong>E2</strong> Named in research</span><span><strong>E3</strong> Network link</span><span><strong>E4</strong> Product–country risk</span></div>
+    <div><span class="label">Tier (line style)</span><span class="ln"><i></i>Tier 1 (direct)</span><span class="ln"><i style="border-top-style:dashed"></i>Tier 2</span><span class="ln"><i style="border-top-style:dotted"></i>Tier 3+ or not disclosed</span></div>
+    <div><span class="label">Link basis (marker)</span><span><strong>D</strong> Disclosed by company</span><span><strong>R</strong> Reported by media</span><span><strong>O</strong> Observed in Sayari data</span></div>
+  </section>
+  <aside class="caveat" aria-label="Data caveat">Supply chain links and risk flags are derived from Sayari Graph data (queried 2026-11-09). They are risk indicators based on trade, corporate and third-party records, not findings that any company uses forced labour. Data may be incomplete, contain entity-matching errors, or omit flows not captured in trade records.</aside>
+  <footer class="site">
+    <span>Dataset v0.1 (draft) · Cobalt pilot · Sources cited to original publishers; Tavily used for discovery only.</span>
+  </footer>
+</main>
+<script src="assets/data.js"></script>
+<script src="assets/pages.js"></script>
+</body>
+</html>
