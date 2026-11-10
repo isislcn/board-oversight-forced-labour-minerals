@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite it as below. Cite the specific version you used; the thesis cites the thesis snapshot version only."
+type: software
+title: "Board Oversight of Forced Labour Risk in Mineral Supply Chains"
+abstract: "A research dashboard combining supply chain exposure (risk indicators), board oversight coding and investor stewardship votes to assess how technology company boards oversee forced labour risks in mineral supply chains, against the UN Guiding Principles on leverage, remedy and responsible exit. Planning stage."
+authors:
+  - given-names: "Isis"
+    alias: "isislcn"
+    affiliation: "New York University"
+    # family-names: "[Family name]"  # add before citing formally
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # optional
+version: "0.1.0"
+date-released: "2026-11-09"
+repository-code: "https://github.com/isislcn/board-oversight-forced-labour-minerals"
+license: MIT
+keywords:
+  - forced labour
+  - business and human rights
+  - UN Guiding Principles
+  - supply chain due diligence
+  - cobalt
+  - corporate governance
+  - investment stewardship
